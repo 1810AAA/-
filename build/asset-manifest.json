@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bde1769c.chunk.css",
+    "main.js": "./static/js/main.e83c3632.chunk.js",
+    "main.js.map": "./static/js/main.e83c3632.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8f6665c9.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8f6665c9.js.map",
+    "static/css/2.aa7fcd32.chunk.css": "./static/css/2.aa7fcd32.chunk.css",
+    "static/js/2.9d18d8c8.chunk.js": "./static/js/2.9d18d8c8.chunk.js",
+    "static/js/2.9d18d8c8.chunk.js.map": "./static/js/2.9d18d8c8.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.6732cad2fe8d4df0841ca949f7f0d29d.js": "./precache-manifest.6732cad2fe8d4df0841ca949f7f0d29d.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.aa7fcd32.chunk.css.map": "./static/css/2.aa7fcd32.chunk.css.map",
+    "static/css/main.bde1769c.chunk.css.map": "./static/css/main.bde1769c.chunk.css.map",
+    "static/media/01.jpg": "./static/media/01.2471d638.jpg",
+    "static/media/02.jpg": "./static/media/02.35103632.jpg",
+    "static/media/index.scss": "./static/media/beijing.553d7836.jpg",
+    "static/media/pig.jpg": "./static/media/pig.13ea761d.jpg",
+    "static/media/xufengnian.jpg": "./static/media/xufengnian.43a6b05d.jpg",
+    "static/media/图片.jpg": "./static/media/图片.e5fdc4d9.jpg",
+    "static/media/姜泥.jpg": "./static/media/姜泥.bf772f27.jpg",
+    "static/media/徐脂虎3.jpg": "./static/media/徐脂虎3.138c5f68.jpg",
+    "static/media/李淳罡3.jpg": "./static/media/李淳罡3.e0dcb003.jpg",
+    "static/media/温华.jpg": "./static/media/温华.b0a76751.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f6665c9.js",
+    "static/css/2.aa7fcd32.chunk.css",
+    "static/js/2.9d18d8c8.chunk.js",
+    "static/css/main.bde1769c.chunk.css",
+    "static/js/main.e83c3632.chunk.js"
+  ]
+}
