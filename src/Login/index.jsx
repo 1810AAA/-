@@ -14,6 +14,8 @@ import Content2 from'../components/intermediate/index'  // 中级内容
 import Content3 from '../components/senior/index'//高级内容
 import Question from '../components/question/index'//表单
 import Picture from '../components/picture/index' //图片切换
+import Git from '../components/git/index'
+import Vuee from '../components/vuee1/index'
 class Index extends Component {
   constructor() {
     super();
@@ -65,6 +67,15 @@ getSouData = id => {
         break;
         case 'picture':
           Dom = <Picture/>
+          break;
+          case 'git':
+          Dom =<Git/>
+          break;
+          case 'vuee1':
+            Dom =<Vuee/>
+
+
+       
     }
     return (
       <React.Fragment>

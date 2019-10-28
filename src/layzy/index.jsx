@@ -102,7 +102,7 @@ export default class Index extends Component {
              脚手架知识总结
           
         </Menu.Item>
-        <Menu.Item key="4" onClick={()=>onchangeconsts('git')}>
+        <Menu.Item key="4" onClick={()=>onchangeconsts('vuee1')}>
        vue知识点总结
          
         </Menu.Item>
