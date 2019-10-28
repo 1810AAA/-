@@ -63,7 +63,7 @@ export default class index extends Component {
 <p style={{color:'red'}}>注意:该方法必须只能是在 render/return 里写。</p>
 <p>插入容器组件时需要注意生命周期的执行原理：
 </p>
-<p>   1如果是插入到html页面上已有的元素容器里,则直接获取dom元素对象</p>
+<p> 1如果是插入到html页面上已有的元素容器里,则直接获取dom元素对象</p>
     <p> 2如果是插入到react组件里需要注意生命周期,可以用state接收容器组件的dom对象,在挂载成功的函数内进行获取,保证容器组件真正的渲染到页面上
      </p>
     </Panel>

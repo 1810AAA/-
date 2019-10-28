@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Menu, Icon, Switch} from 'antd';
+import { Menu, Icon} from 'antd';
 
 import { Carousel } from 'antd';
 //引入样式
@@ -31,7 +31,7 @@ export default class Index extends Component {
     }
     //点击函数
     handleClick = e => {
-      console.log('click ', e);
+      // console.log('click ', e);
       this.setState({
         current: e.key,
       });
@@ -59,20 +59,10 @@ export default class Index extends Component {
       joinOur=()=>{
         alert('优秀的程序员啊，欢迎加入我们的超级小分队，')
       }
-      // 切换的方法
-      toggle =()=>{
-
-      }
-      //子传父
-      togglele=()=>{
-
-      }
-     
-    
       colorss=()=> Math.round(Math.random()*10)
      
       render() {
-const {onchangeconsts}=this.props
+       const {onchangeconsts}=this.props
 
         return (
           
@@ -107,20 +97,18 @@ const {onchangeconsts}=this.props
         <Menu.Item key="2" onClick={()=>onchangeconsts('picture')}>
               选项卡的展示
         </Menu.Item>
-        <Menu.Item key="3">
-          <a href="https://www.jianshu.com/p/3f04c5cbbe2c" target="_blank" rel="noopener noreferrer">
-             vue知识点总结
-          </a>
+        <Menu.Item key="3" onClick={()=>onchangeconsts('git')}>
+         
+             脚手架知识总结
+          
         </Menu.Item>
-        <Menu.Item key="4">
-        <a href="https://blog.csdn.net/alex_xfboy/article/details/85986357" target="_blank" rel="noopener noreferrer">
-             git知识点总结
-          </a>
+        <Menu.Item key="4" onClick={()=>onchangeconsts('git')}>
+       vue知识点总结
          
         </Menu.Item>
         <Menu.Item key="5">
         <a href="https://www.cnblogs.com/ls1997/p/10527380.html" target="_blank" rel="noopener noreferrer">
-             字符串的方法
+            字符串总结
           </a>
          
         </Menu.Item>
