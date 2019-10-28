@@ -106,10 +106,10 @@ export default class Index extends Component {
        vue知识点总结
          
         </Menu.Item>
-        <Menu.Item key="5">
-        <a href="https://www.cnblogs.com/ls1997/p/10527380.html" target="_blank" rel="noopener noreferrer">
+        <Menu.Item key="5" onClick={()=>onchangeconsts('string')}>
+        
             字符串总结
-          </a>
+        
          
         </Menu.Item>
         <Menu.Item key="alipay">

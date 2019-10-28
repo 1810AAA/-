@@ -16,6 +16,7 @@ import Question from '../components/question/index'//表单
 import Picture from '../components/picture/index' //图片切换
 import Git from '../components/git/index'
 import Vuee from '../components/vuee1/index'
+import String1 from '../components/string/index'
 class Index extends Component {
   constructor() {
     super();
@@ -73,7 +74,9 @@ getSouData = id => {
           break;
           case 'vuee1':
             Dom =<Vuee/>
-
+        break;
+        case 'string':
+          Dom =<String1/>
 
        
     }
